@@ -62,3 +62,11 @@ input.search-bar {
 .temp-icon {
   display: flex;
 }
+
+.weather.loading {
+  visibility: hidden;
+}
+
+.weather.loading:after {
+  visibility: visible;
+}
